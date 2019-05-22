@@ -213,6 +213,10 @@ div[style*="margin: 16px 0"] {
   .mobile--items{
     padding: 10px 15px 10px 15px !important;
   }
+
+  .mobile--center{
+    text-align: center !important;
+  }
 }
 
 @media screen and (min-width: 401px) and (max-width: 620px) {
@@ -228,4 +232,11 @@ div[style*="margin: 16px 0"] {
     padding: 10px 15px 10px 15px !important;
   }
 
+  .mobile--name{
+    padding: 20px 5px 10px 5px !important;
+  }
+
+  .mobile--shipping{
+    padding: 16px 12px 0px 12px !important;
+  }
 }
