@@ -106,7 +106,7 @@ div[style*="margin: 16px 0"] {
   width: 100%;
   max-width: 200px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .three-column .contents {
@@ -116,7 +116,7 @@ div[style*="margin: 16px 0"] {
 
 .three-column img {
   width: 100%;
-  max-width: 180px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -209,6 +209,10 @@ div[style*="margin: 16px 0"] {
   .three-column img {
     max-width: 50% !important;
   }
+
+  .mobile--items{
+    padding: 10px 15px 10px 15px !important;
+  }
 }
 
 @media screen and (min-width: 401px) and (max-width: 620px) {
@@ -219,4 +223,9 @@ div[style*="margin: 16px 0"] {
   .two-column .column {
     max-width: 50% !important;
   }
+
+  .mobile--items{
+    padding: 10px 15px 10px 15px !important;
+  }
+
 }
